@@ -62,6 +62,6 @@ section, you can run the following command:
         
         C. Paddock, V. Russo, T. Silverthorne, W. Slofstra,
 
-        arXiv: [arXiv:X](https://arxiv.org/abs/X)
+        arXiv: [arXiv:2205.04645](https://arxiv.org/abs/2205.04645)
 
 
