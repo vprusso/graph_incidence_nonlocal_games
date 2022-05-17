@@ -1,11 +1,11 @@
 # Arkhipov's theorem, graph minors, and linear system nonlocal games
 
-Companion code for:
+Companion code for: [arXiv:2205.04645](https://arxiv.org/abs/2205.04645)
 
 ```
 "Arkhipov's theorem, graph minors, and linear system nonlocal games",
 C. Paddock, V. Russo, T. Silverthorne, W. Slofstra,
-arXiv: [arXiv:2205.04645](https://arxiv.org/abs/2205.04645)
+arXiv:2205.04645
 ```
 
 Each of the subsequent subdirectories [incidence_group_gen](#incidence_group_gen) and [confluent_rewriting_systems](confluent_rewriting_systems) contain their own `README.md` file that describes their utility and how to run the code within.

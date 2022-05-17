@@ -1,4 +1,6 @@
-# petersen_conjecture
+# confluent_rewriting_systems
+
+Given a graph or incidence matrix that corresponds to a graph, compute the confluent rewriting system of that graph using the Knuth-Bendix algorithm.
 
 ### Installing GAP
 
@@ -13,7 +15,7 @@ gap
 
 This will open the GAP shell in which you may run GAP commands.
 
-## Installing KBMAG
+### Installing KBMAG
 
 The [KBMAG](https://www.gap-system.org/Packages/kbmag.html) package is used to
 determine the whether a writing system is confluent or not.
@@ -40,10 +42,10 @@ true
 If the package is installed in your version of GAP, you should see the `true`
 result.
 
-## Assumptions:
+### Assumptions:
 If the repository is not stored in your home directory, commands of the form `Read(Filename(DirectoryHome(),"graph_incidence_nonlocal_games/..."))`  and `load("graph_incidence_nonlocal_games/...")` should be modified to reference the appropriate path.
 
-## Finding confluent RWS for 10 vertex cubic graphs 
+### Finding confluent RWS for 10 vertex cubic graphs 
 
 The script `petersen_conjecture/fixed_order_check_cubic_graphs.g` verifies that a confluent rewriting system (RWS) can be found for all cubic graphs on at most 10 vertices excluding the Petersen graph.
 
@@ -67,7 +69,7 @@ The script `petersen_conjecture/try_petersen.g` attempts to find a confluent RWS
 gap> Read(Filename(DirectoryHome(),"graph_incidence_nonlocal_games/petersen_conjecture/try_petersen.g"));
 ```
 
-## Finding confluent RWS for subgraphs of the Petersen graph
+### Finding confluent RWS for subgraphs of the Petersen graph
 
 To strengthen our conjecture that the Petersen graph is the smallest graph without a confluent rewriting system, we generated confluent RWS for all subgraphs of the Petersen graph obtained by a single edge contraction or deletion.
 
@@ -81,7 +83,7 @@ Then RWS are found for each of the two subgraphs identified in sage.
 sage: gap.console()
 gap> Read(Filename(DirectoryHome(),"graph_incidence_nonlocal_games/petersen_conjecture/check_petersen_subgraphs.g"));
 ...
-Sizes of RWS for Peetersen subgraphs:
+Sizes of RWS for Petersen subgraphs:
 36
 26
 ```
